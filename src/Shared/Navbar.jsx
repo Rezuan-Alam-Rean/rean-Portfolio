@@ -14,9 +14,9 @@ const Navbar = () => {
             <a href="#about"  className=" font-bold hover:text-blue-700">About</a>
           </li>
    
-           {/* <li className="md:text-white  font-poppins cursor-pointer"> 
+           <li className="md:text-white  font-poppins cursor-pointer"> 
            <a href="#contact"  className=" font-bold hover:text-blue-700">Contact</a>
-          </li> */}
+          </li>
          
            <li className="md:text-white  font-poppins cursor-pointer"> 
            <a href="#project"  className=" font-bold hover:text-blue-700">Project</a>
