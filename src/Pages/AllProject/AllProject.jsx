@@ -15,12 +15,12 @@ const AllProject = () => {
     setLoader(false);
   }, []);
 
-  console.log(data);
+  
 
   // card
   const ProjectCard = ({ pd }) => {
     const { name, image } = pd;
-    console.log(pd);
+    
     return (
       <div
         className="rounded-lg group  text-white font-poppins p-3 bg-gradient-to-r via-gray-900 from-blue-900 to cyan-900 box-shadow  shadow-2xl h-[410px]"
