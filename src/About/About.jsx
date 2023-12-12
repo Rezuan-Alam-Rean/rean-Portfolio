@@ -35,7 +35,7 @@ const About = () => {
 
 
         <a href="#contact">
-        <button className="btn hover:-hue-rotate-90 mt-5 btn-primary bg-purple-500">Contact Me </button>
+        <button className="btn bg-purple-100">Contact Me </button>
         </a>
        </div>
 

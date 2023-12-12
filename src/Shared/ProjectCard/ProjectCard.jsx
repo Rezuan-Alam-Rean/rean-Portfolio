@@ -1,36 +1,25 @@
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ pd }) => {
   const { _id, name, type, image } = pd;
   return (
     <div
-      className="rounded-lg group text-white font-poppins  bg-gradient-to-r via-blue-500 from-gray-900 to blue-900 box-shadow  shadow-2xl h-[410px]"
+      className="rounded-lg group text-white font-poppins bg-slate-800 shadow-2xl overflow-hidden"
       data-aos="zoom-in"
       data-aos-duration="1000"
     >
-      <img className="group-hover:scale-95 " src={image[0].img1} />
-      <div className="p-3 flex flex-row justify-between my-8">
-        <div className="">
-          <h2 className="card-title">{name}</h2>
-          <div className=" p-1">
-            <p className="font-bold mx-auto ">{type}</p>
-          </div>
-        </div>
+      <img className="w-full group-hover:scale-95" src={image[0].img1} alt={name} />
+      <div className="p-3  flex flex-col justify-between my-3 lg:my-5">
         <div>
-          <div className="items-center justify-center mt-3 flex flex-row gap-3">
-            <Link to={`/details/${_id}`}>
-              <button className="btn  btn-primary hover:-hue-rotate-90 bg-gradient-to-r from-cyan-500 to blue-900">
-                {" "}
-                <span className="text-white  font-bold">
-                  View Details{" "}
-                </span>{" "}
-                <span className=" ">
-                  <AiOutlineArrowRight size={25}></AiOutlineArrowRight>
-                </span>{" "}
-              </button>
-            </Link>
-          </div>
+          <h2 className="card-title text-lg lg:text-xl xl:text-2xl font-bold mb-1">{name}</h2>
+          <p className="font-bold text-sm lg:text-base text-gray-300">{type}</p>
+        </div>
+        <div className="flex justify-center mt-3 lg:mt-5">
+          <Link to={`/details/${_id}`}>
+            <button className="btn bg-purple-100 text-black px-4 py-2 lg:px-6 lg:py-3">
+              <span className="text-sm lg:text-base">View Details</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

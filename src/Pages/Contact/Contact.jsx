@@ -95,7 +95,7 @@ const Contact = () => {
             />
           </label>
 
-          <button className="btn hover:-hue-rotate-90  btn-primary bg-gradient-to-r from-cyan-500 to blue-900">Send Message </button>
+          <button className=" hover:-hue-rotate-90 btn bg-purple-100">Send Message </button>
         </form>
       </div>
     </div>
