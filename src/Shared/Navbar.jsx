@@ -9,19 +9,19 @@ const Navbar = () => {
         <NavLink className="font-bold hover:text-blue-700" to="/">Home</NavLink>
       </li>
       <li className="md:text-white font-poppins cursor-pointer">
-        <a href="#about" className="font-bold hover:text-blue-700">About</a>
+        <NavLink to="/about" className="font-bold hover:text-blue-700">About</NavLink>
       </li>
       <li className="md:text-white font-poppins cursor-pointer">
-        <a href="#contact" className="font-bold hover:text-blue-700">Contact</a>
+        <NavLink to="/contact" className="font-bold hover:text-blue-700">Contact</NavLink>
       </li>
       <li className="md:text-white font-poppins cursor-pointer">
-        <a href="#project" className="font-bold hover:text-blue-700">Project</a>
+        <NavLink to="/project" className="font-bold hover:text-blue-700">Project</NavLink>
       </li>
       <li className="md:text-white font-poppins cursor-pointer">
-        <a href="#skills" className="font-bold hover:text-blue-700">My Skills</a>
+        <NavLink to="/skills" className="font-bold hover:text-blue-700">My Skills</NavLink>
       </li>
       <li className="md:text-white font-poppins cursor-pointer">
-        <NavLink to={"/allProject"} className="font-bold hover:text-blue-700">All Project</NavLink>
+        <NavLink to="/allProject" className="font-bold hover:text-blue-700">All Project</NavLink>
       </li>
     </>
   );
