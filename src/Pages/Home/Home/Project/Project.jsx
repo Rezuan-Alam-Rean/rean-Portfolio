@@ -9,7 +9,7 @@ const Project = () => {
     const [loader, setLoader] = useState(true);
 
     useEffect(() => {
-        fetch('http://localhost:5000/allProjects')
+        fetch('https://rean-portfolio-server.vercel.app/allProjects')
             .then(res => res.json())
             .then(data => setData(data))
         setLoader(false)

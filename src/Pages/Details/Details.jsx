@@ -14,7 +14,7 @@ const Details = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/projects/${id}`)
+    fetch(`https://rean-portfolio-server.vercel.app/projects/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);
