@@ -91,7 +91,7 @@ const Navbar = () => {
         <a href={resume} download={resume}>
   <button className="btn sm:flex sm:flex-row bg-purple-100 items-center justify-center sm:justify-start sm:px-4 sm:py-2">
     <span className="text-black font-bold">
-      DownLoad Resume
+      Download Resume
     </span>
     <span className="hidden sm:inline-block ml-2">
       {/* <AiOutlineArrowRight size={25} /> */}
