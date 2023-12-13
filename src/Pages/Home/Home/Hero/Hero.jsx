@@ -3,7 +3,7 @@ import img from "../../../../assets/Banner/Rean Cover Github v2.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative w-full mt-32">
+    <div className="relative w-full mb-0 mt-24">
       <img
         src={img}
         alt="banner"

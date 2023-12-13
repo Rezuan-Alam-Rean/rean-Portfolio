@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 // import { AiOutlineArrowRight } from "react-icons/ai";
-import resume from "../../public/resume/rean-resume.pdf";
+import resume from "../../src/assets/file/resume/rean-resume.pdf";
 
 const Navbar = () => {
   const navRoutes = (
@@ -27,7 +27,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-slate-900 w-full fixed z-30 top-0 left-0 py-5 shadow-sm">
+    <div className="navbar  bg-slate-900 w-full fixed z-30 top-0 left-0 py-5 shadow-sm">
 
       {/* Navbar start with dropdown */}
       <div className="navbar-start">
@@ -89,13 +89,16 @@ const Navbar = () => {
       <div className="navbar-end mr-10">
         {/* Responsive Resume Download Button */}
         <a href={resume} download={resume}>
-          <button className="btn ml-2 pt-[5px] sm:flex sm:flex-row  bg-purple-100">
-            <span className="text-black font-bold">DownLoad <br /> Resume </span>
-            <span className="">
-              {/* <AiOutlineArrowRight size={25} /> */}
-            </span>
-          </button>
-        </a>
+  <button className="btn sm:flex sm:flex-row bg-purple-100 items-center justify-center sm:justify-start sm:px-4 sm:py-2">
+    <span className="text-black font-bold">
+      DownLoad Resume
+    </span>
+    <span className="hidden sm:inline-block ml-2">
+      {/* <AiOutlineArrowRight size={25} /> */}
+    </span>
+  </button>
+</a>
+
       </div>
     </div>
   );

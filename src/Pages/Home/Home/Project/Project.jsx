@@ -22,8 +22,8 @@ const Project = () => {
                 <div className="flex items-center justify-center h-32">
                     <FaSpinner className="animate-spin text-white text-4xl" />
                 </div>
-                : <div id="project">
-                    <p className="text-5xl font-bold text-center text-white mb-5 mt-10">
+                : <div  id="project">
+                    <p className="text-4xl font-bold text-center text-white mb-5 mt-10">
                         My Projects
                     </p>
                     <h1 className="font-5xl font-poppins font-extrabold border-b-8  border-dimBlue text-white mb-10"></h1>

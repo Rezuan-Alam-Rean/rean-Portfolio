@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animate from "../../assets/lottie.json";
+import animate from "../../assets/Animation - 1702402794506.json";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from "react-hot-toast";
@@ -22,15 +22,15 @@ const Contact = () => {
 
   return (
     <>
-      <p className="text-5xl font-bold text-center text-white mb-5 mt-10">
+      <p className="text-4xl font-bold text-center text-white mb-5 mt-10">
         Contact Me
       </p>
       <h1 className="font-5xl font-poppins font-extrabold border-b-8  border-dimBlue text-white mb-10"></h1>
 
-      <div id="contact" className="xl:mt-12 flex md:flex-row flex-col-reverse gap-10 overflow-hidden">
+      <div id="contact" className="xl:mt-12 flex md:flex-row flex-col gap-10 overflow-hidden">
         {/* Lottie */}
-        <div className="text-center md:mt-16 mt-1 md:w-1/2">
-          <Lottie className="" animationData={animate} loop={true} height={100} width={100} />
+        <div className="text-center md:mt-10 mt-1 md:w-1/2">
+          <Lottie className="" animationData={animate} loop={true} height={50} width={50} />
         </div>
         {/* Form */}
         <div className='flex-[0.75] bg-black-100 p-8 rounded-2xl md:w-1/2'>
@@ -42,7 +42,7 @@ const Contact = () => {
                   type='text'
                   name='name'
                   required
-                  placeholder="*Name"
+                  placeholder=" Your Name :"
                   className='bg-tertiary py-4 px-6 text-black rounded-lg outline-none border-none font-medium'
                 />
               </label>
@@ -52,7 +52,7 @@ const Contact = () => {
                   type='email'
                   name='email'
                   required
-                  placeholder="*Email"
+                  placeholder="Your Email :"
                   className='bg-tertiary py-4 px-6 text-black rounded-lg outline-none border-none font-medium'
                 />
               </label>
@@ -63,7 +63,7 @@ const Contact = () => {
                 type='text'
                 name='subject'
                 required
-                placeholder="*Subject"
+                placeholder="Subject :"
                 className='bg-tertiary py-4 px-6 text-black rounded-lg outline-none border-none font-medium'
               />
             </label>
@@ -73,7 +73,7 @@ const Contact = () => {
                 rows={7}
                 name='message'
                 required
-                placeholder='*Message'
+                placeholder='Message :'
                 className='bg-tertiary py-4 px-6 text-black rounded-lg outline-none border-none font-medium'
               />
             </label>
