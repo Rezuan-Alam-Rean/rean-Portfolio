@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../Shared/Navbar";
 import Footer from "../Shared/Footer";
 import styles from "../styles/styles";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 
 
@@ -15,6 +16,7 @@ const Main = () => {
           <Navbar />
         </div>
       </div>
+      <SocialLinks/>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Outlet />
