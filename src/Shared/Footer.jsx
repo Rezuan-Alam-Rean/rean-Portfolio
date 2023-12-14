@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -15,40 +16,37 @@ const Footer = () => {
                         <div className="grid grid-flow-col gap-4">
 
 
-                            <a
-                                href="https://www.linkedin.com/in/rezuan-alam-rean/"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                            <Link
+                                to="https://www.linkedin.com/in/rezuan-alam-rean/"
+
                                 className="flex justify-between items-center w-full text-white"
                             >
                                 <>
-                                    <FaLinkedin size={30}></FaLinkedin>
+                                     <FaLinkedin size={20}></FaLinkedin>
                                 </>
-                            </a>
+                            </Link>
 
 
-                            <a
-                                href="https://github.com/Rezuan-Alam-Rean"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                            <Link
+                                to="https://github.com/Rezuan-Alam-Rean"
+
                                 className="flex justify-between items-center w-full text-white"
                             >
                                 <>
-                                    <FaGithub size={30}></FaGithub>
+                                     <FaGithub size={20}></FaGithub>
                                 </>
-                            </a>
+                            </Link>
 
 
-                            <a
-                                href="https://www.facebook.com/rean.bhuiyan.94"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                            <Link
+                                to="https://www.facebook.com/rean.bhuiyan.94"
+
                                 className="flex justify-between items-center w-full text-white"
                             >
                                 <>
-                                    <FaFacebook size={30}></FaFacebook>
+                                    <FaFacebook size={20}></FaFacebook>
                                 </>
-                            </a>
+                            </Link>
 
 
                             <a
@@ -56,7 +54,7 @@ const Footer = () => {
                                 className="flex justify-between items-center w-full text-white"
                             >
                                 <>
-                                    <HiOutlineMail size={30}></HiOutlineMail>
+                                     <HiOutlineMail size={20}></HiOutlineMail>
                                 </>
                             </a>
 
