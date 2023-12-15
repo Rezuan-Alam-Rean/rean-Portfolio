@@ -89,7 +89,7 @@ const Navbar = () => {
       <div className="navbar-end mr-10">
         {/* Responsive Resume Download Button */}
         <a href={resume} download={resume}>
-  <button className="btn sm:flex sm:flex-row bg-purple-100 items-center justify-center sm:justify-start sm:px-4 sm:py-2">
+  <button className=" hidden md:block btn sm:flex sm:flex-row bg-purple-100 items-center justify-center sm:justify-start sm:px-4 sm:py-2">
     <span className="text-black font-bold">
       Download Resume
     </span>

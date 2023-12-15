@@ -7,7 +7,7 @@ const SocialLinks = () => {
 
  
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="flex flex-col top-[35%] z-20 left-0 fixed">
       <ul>
         {/* LinkedIn */}
         <li className="flex justify-between items-center w-36 h-10 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500">
