@@ -52,17 +52,17 @@ const Details = () => {
           {/* buttons */}
           <div className="flex flex-wrap gap-5 md:ml-[480px] mt-10">
             <Link to={data?.live_link}>
-              <button className="btn bg-purple-100 flex items-center">
+              <button className=" btn btn-sm  bg-purple-100 flex items-center">
                 View-Site <FaArrowRight className="ml-1" />
               </button>
             </Link>
             <Link to={data?.client_link}>
-              <button className="btn bg-purple-100 flex items-center">
+              <button className=" btn btn-sm bg-purple-100 flex items-center">
                 Client Site <FaGithub className="ml-1" size={23} />
               </button>
             </Link>
             <Link to={data?.server_link}>
-              <button className="btn bg-purple-100 flex items-center">
+              <button className=" btn btn-sm bg-purple-100 flex items-center">
                 Server Site <FaGithub className="ml-1" size={23} />
               </button>
             </Link>

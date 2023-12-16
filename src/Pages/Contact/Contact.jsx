@@ -77,7 +77,7 @@ const Contact = () => {
                 className='bg-tertiary py-4 px-6 text-black rounded-lg outline-none border-none font-medium'
               />
             </label>
-            <button className="hover:-hue-rotate-90 btn bg-purple-100">Send Message</button>
+            <button className="hover:-hue-rotate-90 btn btn-sm  bg-purple-100">Send Message</button>
           </form>
         </div>
       </div>
