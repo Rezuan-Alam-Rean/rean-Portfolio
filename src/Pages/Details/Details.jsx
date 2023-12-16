@@ -22,7 +22,10 @@ const Details = () => {
       });
   }, [id]);
 
+  console.log(data);
+
   const Technology = ({ f }) => {
+    console.log(f);
     return (
       <div className="flex flex-row p-6 rounded-[20px] feature-card mt-5">
         <div className="w-[64px] h-[64px] rounded-full flex items-center justify-center bg-dimBlue">
@@ -79,8 +82,9 @@ const Details = () => {
           {/* feature */}
           <p className="text-5xl font-bold text-white my-10">Feature</p>
           <div>
-            {data?.feature?.map((f) => (
-              <Feature key={f?._id} f={f}></Feature>
+            {data?.feature?.map((f,i ) => (
+              
+              <Feature key={i} f={f}></Feature>
             ))}
           </div>
         </div>

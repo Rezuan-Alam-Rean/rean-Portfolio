@@ -16,7 +16,7 @@ const ProjectCard = ({ pd }) => {
         </div>
         <div className="flex justify-center mt-3 lg:mt-5">
           <Link to={`/details/${_id}`}>
-            <button className="btn btn-sm bg-purple-100 text-black px-4 py-2 lg:px-6 lg:py-3">
+            <button className="btn btn-sm bg-purple-100 text-black ">
               <span className="text-sm lg:text-base">View Details</span>
             </button>
           </Link>
