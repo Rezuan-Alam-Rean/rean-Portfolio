@@ -1,6 +1,6 @@
 
 import img from "../../../../assets/Banner/Rean Cover Github v2.jpg";
-import resume from "../../../../assets/file/resume/rean-resume.pdf";
+import resume from "../../../../assets/file/resume/Resume.pdf";
 
 const Hero = () => {
   return (

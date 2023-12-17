@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 // import { AiOutlineArrowRight } from "react-icons/ai";
-import resume from "../../src/assets/file/resume/rean-resume.pdf";
+import resume from "../../src/assets/file/resume/Resume.pdf";
 
 const Navbar = () => {
   const navRoutes = (
