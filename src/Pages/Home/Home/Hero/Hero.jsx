@@ -13,7 +13,7 @@ const Hero = () => {
       />
       <div className="  absolute    bottom-0 right-0 m-2">
         <a href={resume} download={resume}>
-          <button className=" block md:hidden btn  btn-sm    bg-purple-100 "> 
+          <button className=" block md:hidden btn  btn-sm    bg-purple-800 "> 
             <span className="text-black font-bold">
               Download Resume
             </span>
