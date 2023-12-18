@@ -11,11 +11,11 @@ const Hero = () => {
         className="w-full h-auto object-cover"
         style={{ maxHeight: "450px" }}
       />
-      <div className="  absolute    bottom-0 right-0 m-2">
+      <div className="  absolute    bottom-0 right-0 ">
         <a href={resume} download={resume}>
-          <button className=" block md:hidden btn  btn-sm    bg-purple-800 "> 
-            <span className="text-black font-bold">
-              Download Resume
+          <button className=" block md:hidden btn  btn-sm px-4   bg-purple-600 "> 
+            <span className="text-black font-bold ">
+              Download <br />Resume
             </span>
            
           </button>
