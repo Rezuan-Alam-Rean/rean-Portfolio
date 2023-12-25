@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Slider from "../../Components/Slider/Slider";
 import Feature from "../../Components/Feature/Feature";
-
 import { SiSymantec } from "react-icons/si";
 import { FaArrowRight, FaGithub, FaSpinner } from "react-icons/fa";
 import useTitle from "../../hooks/useTitle";

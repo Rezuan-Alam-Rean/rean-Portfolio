@@ -55,7 +55,7 @@ const About = () => {
               contributing to open-source projects. <br />Thank you .
             </p>
             < Link to="/Contact" >
-              <button className="btn btn-sm bg-purple-100 mt-4 md:mt-6">
+              <button className="btn btn-sm text-black bg-purple-100 mt-4 md:mt-6">
                 Contact Me
               </button>
             </ Link >
