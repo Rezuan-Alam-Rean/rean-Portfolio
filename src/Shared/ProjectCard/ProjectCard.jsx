@@ -4,7 +4,7 @@ const ProjectCard = ({ pd }) => {
   const { _id, name, type, image } = pd;
   return (
     <div
-      className="rounded-lg group text-white font-poppins bg-slate-800 shadow-2xl overflow-hidden"
+      className="rounded-lg group text-white font-poppins bg-slate-800 shadow-lg overflow-hidden"
       data-aos="zoom-in"
       data-aos-duration="1000"
     >
