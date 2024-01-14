@@ -45,11 +45,9 @@ const About = () => {
 
             <p className="text-white font-poppins ">
              
-              I'm Rezuan Alam Rean .
-              I'm a passionate MERN stack developer with a solid foundation in
-              React, JavaScript, Node.js, MongoDB, HTML, and CSS.
-              I'm also a Computer Science and Engineering student with a passion
-              for coding and innovation.  I'm currently expanding my
+              
+              Hello ! I am Rezuan Alam rean. I am a Front-End Developer with a solid foundation in React,   JavaScript, html & CSS and familiar with  Node.js, Express and  MongoDB. I'm also  a student of  Computer Science and Engineering with a passion for coding. My Aim is to be a full-Stack Developer.
+              I'm currently expanding my
               knowledge by learning Next.js to become a well-rounded full-stack
               developer.  I'm excited about learning new technologies and
               contributing to open-source projects. <br />Thank you .
