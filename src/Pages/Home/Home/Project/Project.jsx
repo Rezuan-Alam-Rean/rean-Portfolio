@@ -33,7 +33,7 @@ const Project = () => {
                         }
                     </div>
                     <div className="text-right mr-3 mt-10">
-                        <Link to={"/allProject"}><button className="btn btn-sm bg-purple-100">VIEW All Project</button></Link>
+                        <Link to={"/allProject"}><button className="btn btn-sm text-black bg-purple-100">VIEW All Project</button></Link>
                     </div>
                 </div>}
 
