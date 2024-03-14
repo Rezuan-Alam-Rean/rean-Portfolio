@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 // import { AiOutlineArrowRight } from "react-icons/ai";
-import resume from "../../src/assets/file/resume/Rezuan Alam Rean (5).pdf";
+import resume from "../../src/assets/file/resume/Rezuan Alam Rean (10).pdf";
 
 const Navbar = () => {
   const navRoutes = (
@@ -86,16 +86,14 @@ const Navbar = () => {
       </div>
 
       {/* Navbar end for Resume Download Button */}
-      <div className="navbar-end mr-10">
+      <div className="navbar-end ">
         {/* Responsive Resume Download Button */}
         <a href={resume} download={resume}>
-  <button className=" hidden md:block btn sm:flex sm:flex-row bg-purple-100 items-center justify-center sm:justify-start sm:px-4 sm:py-2">
-    <span className="text-black font-bold">
+  <button className="  btn-sm   btn ml-2 bg-purple-100 ">
+    <span className="text-black  font-bold">
       Download Resume
     </span>
-    <span className="hidden sm:inline-block ml-2">
-      {/* <AiOutlineArrowRight size={25} /> */}
-    </span>
+    
   </button>
 </a>
 

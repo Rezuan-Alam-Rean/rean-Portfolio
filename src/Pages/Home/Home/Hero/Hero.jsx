@@ -11,7 +11,7 @@ const Hero = () => {
         className="w-full h-auto object-cover"
         style={{ maxHeight: "450px" }}
       />
-      <div className="  absolute    bottom-0 right-0 ">
+      {/* <div className="  absolute    bottom-0 right-0 ">
         <a href={resume} download={resume}>
           <button className=" block md:hidden btn btn-outline btn-sm    "> 
             <span className="text-black text-xs  font-serif ">
@@ -20,7 +20,7 @@ const Hero = () => {
            
           </button>
         </a>
-      </div> 
+      </div>  */}
     </div>
   );
 };
